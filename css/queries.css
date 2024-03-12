@@ -1,0 +1,424 @@
+/****************/
+/* BELOW 1200px */
+/****************/
+@media (max-width: 78em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .second-heading {
+    font-size: 3.4rem;
+
+    margin-bottom: 3.2rem;
+  }
+
+  .third-heading {
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .about-us-img {
+    width: 80%;
+  }
+
+  .hero-container {
+    max-width: 120rem;
+  }
+
+  .hero-container-inner {
+    width: 50%;
+  }
+
+  .testimonial-desc-main {
+    margin-left: 6.4rem;
+    /* padding-left: 9.6rem; */
+  }
+
+  .btn-hero:link,
+  .btn-hero:visited {
+    font-size: 2rem;
+  }
+
+  .btn-hero:hover,
+  .btn-hero:active {
+    font-size: 2rem;
+  }
+}
+
+/**************/
+/* BELOW 950px */
+/**************/
+@media (max-width: 66em) {
+  html {
+    /* User's browser font-size setting*/
+    font-size: 50%; /* 8px / 16px = 0.5*/
+  }
+  .hero-container {
+    max-width: 95rem;
+  }
+
+  .heading-primary {
+    font-size: 3.4rem;
+    line-height: 1.3;
+  }
+
+  .second-heading {
+    font-size: 3.2rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .third-heading {
+    font-size: 3rem;
+
+    margin-bottom: 2.4rem;
+  }
+
+  .hero-container-inner {
+    width: 51%;
+  }
+
+  .testimonial-desc-main {
+    margin-left: 0;
+    /* padding-left: 9.6rem; */
+  }
+
+  .testimonial-desc {
+    gap: 3.2rem;
+  }
+}
+
+/**************/
+/* BELOW 800px */
+/**************/
+@media (max-width: 50em) {
+  html {
+    /* User's browser font-size setting*/
+    font-size: 45%; /* 8px / 16px = 0.5*/
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .hero-section {
+    height: 100dvh;
+  }
+
+  .hero-container {
+    max-width: 200rem;
+    position: absolute;
+
+    top: 50%;
+    left: 30%;
+
+    transform: translate(-20%, -70%);
+  }
+
+  .hero-container-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .testimonial-desc {
+    grid-template-columns: 1fr;
+    text-align: center;
+    /* align-items: center; */
+    gap: 2.4rem !important;
+    margin-bottom: 3.2rem;
+  }
+
+  .testimonial-text {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+/**************/
+/* BELOW 700px */
+/**************/
+@media (max-width: 43.75em) {
+  html {
+    /* User's browser font-size setting*/
+    font-size: 40%; /* 8px / 16px = 0.5*/
+  }
+}
+
+/*****************/
+/* BELOW 638 PX */
+/****************/
+@media (max-width: 39.875em) {
+  html {
+    /* User's browser font-size setting*/
+    font-size: 40%; /* 8px / 16px = 0.5*/
+  }
+
+  .product-name {
+    font-size: 1.8rem;
+  }
+  .section-menu {
+    font-size: 1.6rem;
+  }
+
+  .hero-container {
+    max-width: 200rem;
+    position: absolute;
+
+    top: 50%;
+    left: 30%;
+
+    transform: translate(-20%, -70%);
+  }
+
+  .hero-container-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .btn-hero:link,
+  .btn-hero:visited {
+    font-size: 2rem;
+  }
+
+  .btn-hero:hover,
+  .btn-hero:active {
+    font-size: 2rem;
+  }
+}
+
+/****************/
+/* BELOW 540 PX */
+/****************/
+@media (max-width: 33.75em) {
+  html {
+    /* User's browser font-size setting*/
+    font-size: 40%; /* 8px / 16px = 0.5*/
+  }
+
+  .product-name {
+    font-size: 1.8rem;
+  }
+  .section-menu {
+    font-size: 1.6rem;
+  }
+
+  .reservation-box {
+    padding: 4.8rem 2.4rem 4.8rem 2.4rem;
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: 1.1fr 1fr;
+  }
+
+  .reservation-form {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    /* margin-bottom: 4.8rem; */
+  }
+
+  .email-form,
+  .date-form,
+  .tel-form,
+  .name-form {
+    width: 100%;
+  }
+
+  .name-form span {
+    transform: translate(-144%, -30%);
+    right: 0;
+    left: 59%;
+  }
+
+  .email-form span {
+    transform: translate(-300%, -30%);
+    right: 0;
+    left: 75%;
+  }
+
+  .tel-form span {
+    transform: translate(-535%, -30%);
+    right: 0;
+    left: 84.5%;
+  }
+
+  .name-form input:valid ~ span,
+  .name-form input:focus ~ span {
+    width: 102%;
+    border-left: none;
+    border-right: none;
+    transform: translateX(-59.1%) translateY(-120%);
+  }
+
+  .email-form input:valid ~ span,
+  .email-form input:focus ~ span {
+    width: 102%;
+    border-left: none;
+    border-right: none;
+    transform: translateX(-75%) translateY(-120%);
+  }
+
+  .tel-form input:valid ~ span,
+  .tel-form input:focus ~ span {
+    width: 102%;
+    border-left: none;
+    border-right: none;
+    transform: translateX(-84%) translateY(-120%);
+  }
+
+  .form-header {
+    font-size: 2.2rem;
+  }
+
+  .reservation-text {
+    font-size: 1.8rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1.5fr 1fr 1fr;
+  }
+
+  .hero-container {
+    max-width: 200rem;
+    position: absolute;
+
+    top: 50%;
+    left: 30%;
+
+    transform: translate(-20%, -70%);
+  }
+
+  .hero-container-inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .btn-hero:link,
+  .btn-hero:visited {
+    font-size: 2rem;
+  }
+
+  .btn-hero:hover,
+  .btn-hero:active {
+    font-size: 2rem;
+  }
+
+  .margin-right-sm {
+    margin-right: 0 !important;
+  }
+
+  .left-margin {
+    margin-left: 0.8rem;
+  }
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1;
+  }
+
+  .navigation {
+    position: absolute;
+    background-color: #013927ef;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-main {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-main li {
+    text-align: center;
+  }
+  .nav-main a {
+    font-size: 3.6rem;
+  }
+
+  .nav-open .navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .form-header {
+    font-size: 2.2rem;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 1.8rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+  }
+}
+
+/**************/
+/* BELOW 450 */
+/**************/
+
+@media (max-width: 28.125em) {
+  .aboutus-container {
+    padding: 0 2.4rem;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+
+  .about-text p {
+    font-size: 2rem;
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .reservation-text {
+    font-size: 1.6rem;
+  }
+}
+
+/**************/
+/* BELOW 350 */
+/**************/
+
+@media (max-width: 24.375em) {
+  .btn-hero:link,
+  .btn-hero:visited {
+    font-size: 1.8rem;
+    padding: 1.8rem 1.6rem;
+  }
+  .btn-hero:hover,
+  .btn-hero:active {
+    font-size: 1.8rem;
+    padding: 1.8rem 1.6rem;
+  }
+
+  .product-name {
+    font-size: 2rem;
+  }
+
+  .product-desc {
+    font-size: 1.8rem;
+  }
+}
