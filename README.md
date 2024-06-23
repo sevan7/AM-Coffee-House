@@ -1,7 +1,7 @@
 # AM Coffee House
 
 Welcome to the AM Coffee House project repository! This repository contains the source code for our fictional coffee shop's website.
-https://amcoffee.sevantarvirdians.ir
+https://amcoffee.sevantarvirdians.com
 
 **Note:** AM Coffee House is a fictional coffee shop created for educational and demonstration purposes. This website is not associated with any real coffee shop, and the content, images, and information provided are entirely fictional and stock free licensed images.
 
